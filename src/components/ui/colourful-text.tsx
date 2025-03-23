@@ -6,8 +6,9 @@ export default function ColourfulText({ text }: { text: string }) {
   const colors = [
     "rgb(80, 31, 230)",
     "rgb(103, 60, 234)",
+    "rgb(98, 46, 251)",
     "rgb(97, 47, 249)",
-    "rgb(97, 47, 249)",
+    "rgb(99, 48, 253)"
   ];
 
   const [currentColors, setCurrentColors] = React.useState(colors);

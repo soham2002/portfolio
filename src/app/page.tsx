@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 import ColourfulText from "@/components/ui/colourful-text";
-import { Briefcase, FileText, Home, Mail, Phone, Book, Moon, Sun, Github, Linkedin, Twitter } from "lucide-react"
+import { Home, Mail, Phone, Book, Moon, Sun, Github, Linkedin, Twitter } from "lucide-react"
 import { motion } from "framer-motion"
 import { useTheme } from "next-themes"
 import { useState, useEffect } from "react"
@@ -156,7 +156,7 @@ export default function Component() {
               </motion.div>
               <div>
               <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mb-6">
-                I'm a passionate tech professional with skills in Application Security, Machine Learning, and Generative AI. Experienced in developing AI solutions, secure applications, and data-driven projects. Passionate about optimizing systems and creating innovative tech solutions.
+                I&apos;m a passionate tech professional with skills in Application Security, Machine Learning, and Generative AI. Experienced in developing AI solutions, secure applications, and data-driven projects. Passionate about optimizing systems and creating innovative tech solutions.
                 </p>
                 <div className="flex space-x-4">
                   <Link href="https://github.com/soham2002" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
@@ -392,10 +392,10 @@ export default function Component() {
                     content: (
                       <>
                         <h3 className="font-semibold">Masters in Computer Application (MCA)</h3>
-                        <p className="text-sm text-gray-500 dark:text-gray-400">Vellore Institute of Technology (VIT), Vellore, Class of '25</p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400">Vellore Institute of Technology (VIT), Vellore, Class of &apos;25</p>
                         <br />
                         <h3 className="font-semibold">Bachelor in Computer Application (BCA)</h3>
-                        <p className="text-sm text-gray-500 dark:text-gray-400">The Heritage Academy(THA), Kolkata, Class of '23</p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400">The Heritage Academy(THA), Kolkata, Class of &apos;23</p>
                       </>
                     )
                   },
