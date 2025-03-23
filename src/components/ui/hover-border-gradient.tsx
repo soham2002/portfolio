@@ -12,16 +12,19 @@ export function HoverBorderGradient({
   as: Tag = "button",
   duration = 1,
   clockwise = true,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   ...props
 }: React.PropsWithChildren<
   {
     as?: React.ElementType;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     containerClassName?: string;
     className?: string;
     duration?: number;
     clockwise?: boolean;
   } & React.HTMLAttributes<HTMLElement>
 >) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [hovered, setHovered] = useState<boolean>(false);
   const [direction, setDirection] = useState<Direction>("TOP");
 
@@ -56,6 +59,7 @@ export function HoverBorderGradient({
   }, [hovered]);
   return (
     <Tag
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
       onMouseEnter={(event: React.MouseEvent<HTMLDivElement>) => {
         setHovered(true);
       }}
